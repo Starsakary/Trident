@@ -3,7 +3,21 @@
 We're very glad to have contributions from the community. Here are some guidelines to get started quickly.
 
 - [Bug Reports](#bug-reports)
+
   - [Find a Bug?](#find-a-bug) 
+
+  - [Want to Fix a Bug?](#want-to-fix-a-bug)
+
+- [Features and Changes](#features-and-changes)
+
+  - [New Feature Adding?](#new-feature-adding)
+
+  - [Asking for/Adding Changes?](#asking-for-adding-changes)
+
+  - [Feature Branches](#feature-branches)
+
+- [Conduct](#conduct)
+
 
 ## Bug Reports
 
