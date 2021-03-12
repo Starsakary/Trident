@@ -1,8 +1,6 @@
 # Trident
 
-Trident is a SDK that includes libraries for working with TRON.
- 
-Trident makes it easy to build TRON applications with any languages.
+Trident is a SDK that includes libraries for working with TRON, it makes it easy to build TRON applications.
 
 ## Contribution
 
@@ -12,6 +10,14 @@ We're very glad and appreciate to have contributions from the community. Feel fr
 
 ## Trident-Java
 
-Trident- Java is a lightweight SDK that includes libraries for working with TRON system contracts and smart contracts.
+Trident- Java is a lightweight SDK that includes libraries for working with TRON network.
 
-[Trident-java Document](https://developers.tron.network/docs/trident-java)
+Functions include:
+
+- Offline address generation
+
+- Offline transaction signature 
+
+- Java-tron full node API support
+
+For more informations refer to : [Trident-java Document](https://developers.tron.network/docs/trident-java)
