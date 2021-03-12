@@ -1,8 +1,8 @@
-## Contributing to Trident
+# Contributing to Trident
 
 We're very glad to have contributions from the community. Here are some guidelines to get started quickly.
 
-[toc]
+[TOC]
 
 ## Bug Reports
 
