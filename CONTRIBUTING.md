@@ -12,7 +12,7 @@ We're very glad to have contributions from the community. Here are some guidelin
 
   - [New Feature Adding?](#new-feature-adding)
 
-  - [Asking for/Adding Changes?](#asking-for-adding-changes)
+  - [Adding Changes?](#adding-changes)
 
   - [Feature Branches](#feature-branches)
 
@@ -43,7 +43,7 @@ We always appreciate good bug reports. They do help!
 
 - Carefully think about if the idea fits the project. You may suggest the change in the Telegram channel, explain it to others and see if the feedbacks tend to be positive. 
 
-### Asking for/Adding Changes?
+### Adding Changes?
 
 - You should always search our GitHub to make sure if there has been a duplicated case.
 
