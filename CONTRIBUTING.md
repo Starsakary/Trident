@@ -2,7 +2,8 @@
 
 We're very glad to have contributions from the community. Here are some guidelines to get started quickly.
 
-[TOC]
+- [Bug Reports](#bug-reports)
+  - [Find a Bug?](#find-a-bug) 
 
 ## Bug Reports
 
