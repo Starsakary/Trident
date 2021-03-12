@@ -4,7 +4,9 @@ Trident is a SDK that includes libraries for working with TRON, it makes it easy
 
 ## Contribution
 
-We're very glad and appreciate to have contributions from the community. Feel free make pull requests to the branch `develop`.
+We're very glad and appreciate to have contributions from the community. 
+
+Refer to our [contributing guide](./CONTRIBUTING.md) for more information.
 
 [Join our Telegram group](https://t.me/TronOfficialDevelopersGroupEn)
 
