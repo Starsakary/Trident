@@ -1,8 +1,8 @@
 # Trident
 
-Trident is the collection of all TRON official SDKs.
-
-SDK of a specific programming language is named as Trident-(language name).
+Trident is a SDK that includes libraries for working with TRON.
+ 
+Trident makes it easy to build TRON applications with any languages.
 
 ## Contribution
 
