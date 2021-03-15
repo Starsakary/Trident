@@ -22,4 +22,4 @@ Functions include:
 
 - java-tron full node API support
 
-For more informations refer to : [trident-java Document](https://developers.tron.network/docs/trident-java)
+For more informations refer to : [trident-java document](https://developers.tron.network/docs/trident-java)
