@@ -1,76 +1,77 @@
-# Contributing to Trident
+# Contributing to trident
 
-We're very glad to have contributions from the community. Here are some guidelines to get started quickly.
+trident is an open-source project.
 
-- [Bug Reports](#bug-reports)
+It is the work of contributors. We appreciate your help!
 
-  - [Find a Bug?](#find-a-bug) 
+Here are instructions to get you started. They are not perfect, so
+please let us know if anything feels wrong or incomplete.
 
-  - [Want to Fix a Bug?](#want-to-fix-a-bug)
+## Contribution guidelines
 
-- [Features and Changes](#features-and-changes)
+First of all, trident follows GitFlow, the branches description in the trident project are listed as follow:
 
-  - [New Feature Adding?](#new-feature-adding)
+``master`` branch:
+This branch contains the latest code released to the production environment. It can only be merged, and can not be modified directly in this branch.
 
-  - [Adding Changes?](#adding-changes)
+``develop`` branch:
+This branch is the main development branch. It contains the complete code that is going to release. It can only be merged, and can not be modified directly in this branch.
 
-  - [Feature Branches](#feature-branches)
+### Pull requests
 
-- [Conduct](#conduct)
+If you'd like to contribute to trident, you should follow the steps below:
 
+- **Fork** a repository from **tronprotocol/trident** allows you to freely experiment with changes without affecting the original project
+- **Fix** some code and **Commit** your modified code.
+- **Send** a Pull Request（PR）for the maintainers to review and merge into the main codebase.
+  *notice*：When you create a new PR，please choose the **tronprotocol/trident** as the base repository and choose **your fork/trident** as the head repository.
+  And you must choose **develop** as the base repository branch, which means we will merge the PR into our **develop** branch when reviewed and approved.
+  Additionally, if you are writing a new feature, please ensure you add appropriate test cases under ``/src/test``.
 
-## Bug Reports
+After the PR is checked by our Sonar check procedure and Travis CI continuous-integration check procedure automatically,
+we maintainers will review the code changed and give some advice for modifying if necessary. Once approved,
+we will close the PR and merge it into the protocol/trident's develop branch.
 
-We always appreciate good bug reports. They do help!
+We are always happy to receive pull requests and do our best to
+review them as fast as possible. Not sure if that typo is worth a pull
+request? Do it! We would appreciate it.
 
-### Find a Bug?
+If your pull request is not accepted on the first try, don't be
+discouraged as it can be a possible oversight. Please explain your code as
+detailed as possible to make it easier for us to understand.
 
-- First, please **ensure the bug was not already reported** by searching on GitHub under [Issues](https://github.com/tronprotocol/trident/issues). If there is you may write more to describe your problem or Like it.
+Please make sure your contributions adhere to our coding guidelines:
 
-- If there hasn't been an issue addressing your problem, you may open a new one. Please make sure your issue includes a clear title and description. It will be more helpful if you provide an **executable test case** for us to quickly reproduce the problem.
+- Code must be documented adhering to the [Google Style](https://google.github.io/styleguide/javaguide.html)
+- Code must pass Sonar detection.
+- Pull requests need to be based on and opened against the develop branch.
+- Commit messages should be started with a verb, and the first letter should be lowercase. The length of a commit message
+must be limited to 50 words.
 
-### Want to Fix a Bug?
+### Create issues
 
-- Open a new pull request with your patch.
+Any significant improvement should be documented as [a GitHub
+issue](https://github.com/tronprotocol/trident/issues) before anyone
+starts working on it.
 
-- Please ensure your PR description clearly describes the problem and solution.
+When filing an issue, make sure to answer these three questions:
 
-## Features and Changes
+- What did you do?
+- What did you expect to see?
+- What did you see instead?
 
-### New Feature Adding?
+### Please check existing issues and docs first!
 
-- First please **search to ensure there hasn't been a similar feature adding**. 
+Please take a moment to check that your bug report or improvement proposal
+doesn't already exist. If it does, please add a quick "+1" or "I have this problem too".
+This will help prioritize the most common problems and requests.
 
-- Carefully think about if the idea fits the project. You may suggest the change in the Telegram channel, explain it to others and see if the feedbacks tend to be positive. 
+## Community Developers Incentives Programme
 
-### Adding Changes?
+Bonus point applies in TRON incentives programme. Developers can earn points by contributing to TRON.
 
-- You should always search our GitHub to make sure if there has been a duplicated case.
+You can find your points ranking at  [Tronscan](https://tronscan.org/#/developersreward).
 
-- We are treating changes carefully for they possibly make difference in how Trident works. You are highly recommended to talk with us about your thinking, it may include: What problem are you solving? Why is what you are suggesting better than what's already there?
+The Top 5 scored developers (for every month, quarter and year) can win a cash reward.
 
-### Feature Branches
-
-- `develop` is the development branch. Any PR should be open to this branch. In most cases, this is just a semi-finished product. **DO NOT USE**.
-
-- `master` includes our latest release. This branch can be used in production. Any PR made to `master` will be rejected.
-
-## Conduct 
-
-While contributing, please be respectful and constructive, so that participation in our project is a positive experience for everyone.
-
-Examples of behavior that contributes to creating a positive environment include:
-
-- Using welcoming and inclusive language
-- Being respectful of differing viewpoints and experiences
-- Gracefully accepting constructive criticism
-- Focusing on what is best for the community
-- Showing empathy towards other community members
-
- Examples of unacceptable behavior include:
-
-- The use of sexualized language or imagery and unwelcome sexual attention or advances
-- Trolling, insulting/derogatory comments, and personal or political attacks
-- Public or private harassment
-- Publishing others’ private information, such as a physical or electronic address, without explicit permission
-- Other conduct which could reasonably be considered inappropriate in a professional setting
+For more details, please visit [Incentives Policy](https://tronprotocol.github.io/documentation-en/developers/incentives/).
